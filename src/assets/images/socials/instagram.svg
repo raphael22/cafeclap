@@ -1,0 +1,30 @@
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+            <defs>
+                <linearGradient id="linear-gradient" x1="2.14" y1="51.6" x2="64.81" y2="-11.07"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fbe18a" />
+                    <stop offset=".21" stop-color="#fcbb45" />
+                    <stop offset=".38" stop-color="#f75274" />
+                    <stop offset=".52" stop-color="#d53692" />
+                    <stop offset=".74" stop-color="#8f39ce" />
+                    <stop offset="1" stop-color="#5b4fe9" />
+                </linearGradient>
+            </defs>
+            <g id="Calque_2" data-name="Calque 2">
+                <path d="M41.7 46.66l5.16-5 1-17.79L44 12.74l14.9 14.92A29 29 0 1028.7 59l-11-11.19z"
+                    fill="url(#linear-gradient)" />
+                <path
+                    d="M59 30c0-.79 0-1.57-.1-2.34L44 12.74l3.87 11.1-1 17.79-5.16 5-24 1.12L28.7 59H30a29 29 0 0029-29z"
+                    fill="url(#linear-gradient-2)" />
+                <path
+                    d="M59 30c0-.79 0-1.57-.1-2.34L44 12.74l3.87 11.1-1 17.79-5.16 5-24 1.12L28.7 59H30a29 29 0 0029-29z"
+                    style="mix-blend-mode:multiply" fill="#8f39ce" opacity=".5" />
+                <circle cx="30" cy="30" r="29" fill="none" />
+                <circle fill="#fff" cx="40.27" cy="19.9" r="2.25" />
+                <path fill="#fff"
+                    d="M30.25 20.54A9.46 9.46 0 1039.71 30a9.47 9.47 0 00-9.46-9.46zm0 15.53A6.06 6.06 0 1136.31 30a6.07 6.07 0 01-6.06 6.06z" />
+                <path fill="#fff"
+                    d="M37.76 49.21H22.42a11.56 11.56 0 01-11.54-11.54V22.33a11.56 11.56 0 0111.54-11.54h15.34a11.56 11.56 0 0111.55 11.54v15.34a11.56 11.56 0 01-11.55 11.54zM22.42 14.4a7.94 7.94 0 00-7.93 7.93v15.34a7.94 7.94 0 007.93 7.93h15.34a7.94 7.94 0 007.93-7.93V22.33a7.94 7.94 0 00-7.93-7.93z" />
+            </g>
+        </svg>

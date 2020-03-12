@@ -1,0 +1,157 @@
+
+$size-portrait: 200px;
+
+:host{
+}
+
+.videastes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 66vw;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.socials{
+    width: 100%;
+}
+.svg0{
+    &.svg-main{
+        left: calc(50% + -23px) !important;
+        transform: rotate(-20deg) scale(0.85);
+        top: 52px !important;
+    }
+    &.instagram{
+        transform: translate3d(39px, -81px, 0);
+    }
+    &.twitter{
+        transform: translate3d(126px, -78px, 0);
+    }
+    &.youtube{
+        transform: translate3d(-32px, -25px, 0);
+    }
+}
+.svg1{
+    &.svg-main{
+        left: calc(50% + -0px) !important;
+        transform: rotate(-8deg);
+        top: 50px !important;
+    }
+    &.twitter{
+        transform: translate3d(50px, -83px, 0);
+    }
+    &.youtube{
+        transform: translate3d(-21px, -44px, 0);
+    }
+    &.facebook{
+        transform: translate3d(133px, -72px, 0);
+    }
+}
+.svg2{
+    &.svg-main{
+        left: calc(50% + 0px) !important;
+        transform: rotate(0deg) scale(1);
+        top: 70px !important;
+    }
+    &.twitter{
+        transform: translate3d(143px, -54px, 0);
+    }
+    &.youtube{
+        transform: translate3d(-4px, -58px, 0);
+    }
+    &.instagram{
+        transform: translate3d(68px, -80px, 0);
+    }
+}
+
+.videaste-container{
+    position: relative;
+    flex: 0 0 calc(33% - 2rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.videaste{
+    width: $size-portrait;
+}
+ .svg-main{
+    position: absolute;
+    top: 0;
+    left: -50%;
+    z-index: -2;
+    width: $size-portrait;
+    margin-left: -100px;
+}
+.svg-social{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    &::ng-deep svg {
+        transition: transform 0.25s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}
+
+.videaste-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    padding-top: 1rem;
+    p{
+        margin: 0;
+        padding-top: 0.25rem;
+    }
+}
+.videaste-name{
+}
+.videaste-job{
+    color: var(--secondary);
+}
+.videaste-description{
+    padding-top: 2rem !important;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+.videaste-portrait{
+    display: block;
+    width: $size-portrait;
+    height: $size-portrait;
+    background: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.26);
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    main{
+        padding: 1rem;
+        background: var(--bg-primary);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        p{
+            margin: 0;
+        }
+        span{
+            color: var(--secondary);
+        }
+    }
+}

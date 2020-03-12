@@ -1,0 +1,22 @@
+<h1 id="creations">Créations originales</h1>
+
+<ng-container *ngIf="videos.length > 0">
+    <div class="creation creation-main">
+        <a href="https://www.youtube.com/watch?v={{videos[0].videoId}}" target="_blank">
+            <img [src]="videos[0].snippet.thumbnails.high.url" [alt]="videos[0].snippet.title">
+        </a>
+        <p class="creation-name">{{videos[0].snippet.title}}</p>
+    </div>
+
+    <div class="creations">
+        <ng-container *ngFor="let video of videos; let index = index;">
+            <div class="creation" *ngIf="index > 0">
+                <a href="https://www.youtube.com/watch?v={{video.videoId}}" target="_blank">
+                    <img [src]="index === 0 ? video.snippet.thumbnails.high.url : video.snippet.thumbnails.medium.url"
+                        [alt]="video.snippet.title">
+                </a>
+                <p class="creation-name">{{video.snippet.title}}</p>
+            </div>
+        </ng-container>
+    </div>
+</ng-container>

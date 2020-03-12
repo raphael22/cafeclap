@@ -1,1 +1,81 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family: 'AvenirLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AvenirLight'), url('./assets/fonts/AvenirLTStd-Light.woff') format('woff');
+}
+.light{
+    font-family: 'AvenirLight';
+}
+@font-face {
+    font-family: 'AvenirMedium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AvenirMedium'), url('./assets/fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'AvenirHeavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('AvenirHeavy'), url('./assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+.heavy{
+    font-family: 'AvenirHeavy';
+}
+
+:root {
+    --primary: #5a281d;
+    --secondary: #ff2e00;
+    --light-grey: #373c40;
+    --shadow: 1px 1px 1px 0 rgba(0, 0, 0, .25);
+    --radius: 4px;
+    --bg-primary: rgba(255,255,255,1);
+    --bg-secondary: rgba(20,20,20,1);
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'AvenirMedium';
+}
+*, input, a{
+  font-family: 'AvenirMedium';
+}
+
+.cafeclap-block{
+    margin: 0 auto;
+    width: auto;
+    position: relative;
+    display: block;
+    padding: 2rem 0;
+    overflow: hidden;
+    &.grey {
+        &:before{
+            background-image: url('~/assets/images/background.png');
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            opacity: 0.2;
+        }
+    }
+    h1{
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'AvenirLight';
+        color: var(--secondary);
+        margin-top: 0;
+        font-size: 3rem;
+    }
+}

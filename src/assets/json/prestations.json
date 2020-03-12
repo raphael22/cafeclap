@@ -1,0 +1,32 @@
+{
+    "prestations": [
+        {
+            "name": "animation",
+            "description": "Infographie animée <br> (carte de voeux, faire-part, catalogue produit, etc..) <br> à partir de <strong>150€/mn</strong>"
+        },
+        {
+            "name": "reportage",
+            "description": "1 journée de tournage sur place <br> Film de 5mn à partie de <strong>600€</strong>"
+        },
+        {
+            "name": "captation événement",
+            "description": "1/2 journée de tournage, 3cam <br> Film dynamique multicaméra <br> à partir de <strong>30€ (audio)</strong> <br> à partir de <strong>800€ (vidéo+audio)</strong>"
+        },
+        {
+            "name": "clip musical",
+            "description": "1/2 journée d'écriture <br> 1 journée de tournage <br> Film de <strong>5mn</strong> <br> à partir de <strong>800€</strong>"
+        },
+        {
+            "name": "soundesign",
+            "description": "Bande son originale <br> (création musicale, voix-off, bruitage, etc..) <br> à partir de <strong>70€/mn</strong>"
+        },
+        {
+            "name": "tournage fond vert",
+            "description": "1/2 journée tournage <br> incrustation arrière plan <br> Film de <strong>5mn</strong> <br> à partir de <strong>600€</strong>"
+        },
+        {
+            "name": "drone",
+            "description": "1/2 journée tournage <br> à partir de <strong>300€</strong>"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.26);
+    z-index: 999;
+    height: 64px;
+}
+
+$bar-height: 0.5rem;
+.bar{
+    height: $bar-height;
+    background: var(--primary);
+    width: 100%;
+}
+video{
+    width: 100%;
+    min-height: 50vh;
+    object-fit: cover;
+    display: block;
+}
+
+nav {
+    height: calc(100% - #{$bar-height});
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - #{$bar-height});
+    margin: 0 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: transform 0.5s;
+    backface-visibility: hidden;
+    color: var(--secondary);
+    &:hover{
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,11 @@
+<h1 id="prestations">Prestations</h1>
+
+<div class="prestations">
+    <div class="prestation" *ngFor="let prestation of prestations">
+        <img class="prestation-icon" src="/assets/images/prestations/{{prestation.icon}}.svg" />
+        <div class="prestation-infos">
+            <p class="prestation-name">{{prestation.name}}</p>
+            <p class="prestation-description" [innerHtml]="prestation.description"></p>
+        </div>
+    </div>
+</div>
